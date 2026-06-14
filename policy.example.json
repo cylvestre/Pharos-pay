@@ -1,0 +1,11 @@
+{
+  "recipientAllowlist": [
+    "0x000000000000000000000000000000000000dEaD"
+  ],
+  "tokenAllowlist": ["PHRS", "USDC"],
+  "limits": [
+    { "symbol": "PHRS", "maxPerTx": "1", "maxPerDay": "5" },
+    { "symbol": "USDC", "maxPerTx": "100", "maxPerDay": "500" }
+  ],
+  "requireConfirmation": false
+}

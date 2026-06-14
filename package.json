@@ -1,0 +1,40 @@
+{
+  "name": "pharos-pay",
+  "version": "0.1.0",
+  "description": "Guardrailed on-chain payments Skill for AI agents on the Pharos Atlantic testnet. Zero runtime dependencies in the core. MCP server + OpenAI tool schemas + Anthropic Agent Skill.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "keywords": [
+    "pharos",
+    "mcp",
+    "ai-agent",
+    "agent-skill",
+    "onchain",
+    "payments",
+    "web3",
+    "evm",
+    "openai"
+  ],
+  "bin": {
+    "pharos-pay-mcp": "./src/mcp-server.ts"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "mcp": "node src/mcp-server.ts",
+    "demo": "node scripts/demo.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}

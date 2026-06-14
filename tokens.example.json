@@ -1,0 +1,8 @@
+[
+  {
+    "symbol": "USDC",
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 6,
+    "name": "USD Coin (testnet placeholder - replace with the real Pharos token address)"
+  }
+]
