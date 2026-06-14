@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PharosPay logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16204e"/>
+      <stop offset="1" stop-color="#0a1130"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="256" y1="150" x2="256" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35e2d6" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#35e2d6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="180" y1="372" x2="332" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd76a"/>
+      <stop offset="1" stop-color="#f2a52e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- shield (guardrail) -->
+  <path d="M256 96 L392 142 V268 C392 352 332 410 256 440 C180 410 120 352 120 268 V142 Z"
+        fill="#1f2c63" stroke="#3a4a93" stroke-width="6"/>
+
+  <!-- light beams from the lantern -->
+  <polygon points="256,150 188,60 324,60" fill="url(#beam)"/>
+  <polygon points="256,150 150,118 150,182" fill="url(#beam)" opacity="0.5"/>
+  <polygon points="256,150 362,118 362,182" fill="url(#beam)" opacity="0.5"/>
+
+  <!-- lighthouse tower -->
+  <path d="M232 300 L240 176 H272 L280 300 Z" fill="#f5f7ff"/>
+  <rect x="236" y="206" width="40" height="14" fill="#e0473b"/>
+  <rect x="234" y="244" width="44" height="14" fill="#e0473b"/>
+  <!-- lantern room -->
+  <rect x="240" y="150" width="32" height="30" rx="4" fill="#ffd76a"/>
+  <circle cx="256" cy="165" r="9" fill="#fff6cf"/>
+  <!-- gallery / base cap -->
+  <rect x="228" y="296" width="56" height="12" rx="4" fill="#cfd6f5"/>
+
+  <!-- coin (payment) overlapping the base -->
+  <circle cx="256" cy="420" r="56" fill="url(#coin)" stroke="#b9791a" stroke-width="4"/>
+  <path d="M256 388 V452 M236 404 H272 a12 12 0 0 1 0 24 H240 M236 428 H276"
+        stroke="#7a4d0e" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
